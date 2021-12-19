@@ -1,0 +1,20 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "dev": "npm run server"
+  },
+  "keywords": [],
+  "author": "Tu Hue Son <tuhueson@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "monk": "^7.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

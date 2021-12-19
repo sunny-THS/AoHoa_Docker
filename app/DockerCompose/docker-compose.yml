@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  my-app:
+    image: node:12-alpine
+    command: sh -c "yarn install && yarn run dev"
+    ports:
+      - 5000:3000
+    working_dir: /app
+    volumes:
+      - todo-app:/app
+
+  mongo:
+    image: mongo
+    ports:
+      - 27017:27017
+    restart: always
+    volumes:
+      - mongodb-db:/data/db
+
+volumes:
+  mongodb-db:
+  todo-app:
+      
