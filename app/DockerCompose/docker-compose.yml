@@ -5,10 +5,13 @@ services:
     image: node:12-alpine
     command: sh -c "yarn install && yarn run dev"
     ports:
-      - 5000:3000
+      - 5000:5000
     working_dir: /app
     volumes:
-      - todo-app:/app
+      - ./:/app
+    links:
+      - mongo # link to mongodb
+    
 
   mongo:
     image: mongo
@@ -18,7 +21,15 @@ services:
     volumes:
       - mongodb-db:/data/db
 
+  mongo-express:
+    image: mongo-express
+    restart: always
+    ports:
+      - 8081:8081
+    environment:
+      ME_CONFIG_MONGODB_URL: mongodb://mongo:27017/
+
 volumes:
   mongodb-db:
-  todo-app:
+
       

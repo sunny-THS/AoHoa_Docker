@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Hello dev</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Hello - Twitter</h1>
+    </header>
+    <main>
+        <form class="_form">
+            <div class="error-message">
+            </div>
+            <label for="name">Name</label>
+            <input class="u-full-width" type="text" id="name" name="name">
+            <label for="content">Comment</label>
+            <textarea class="u-full-width" type="text" id="content" name="content"></textarea>
+            <button class="button-primary">Send</button>
+        </form>
+        <div class="contentComment">
+
+        </div>
+        <div class="button-container">
+            <!-- <button id="loadMoreButton" class="button-primary" style="visibility: hidden">Loading</button> -->
+            <p id="loadMore">Loading...</p>
+        </div>
+        <div class="loading">
+            <img src="loading.gif" alt="">
+        </div>
+    </main>
+    <script src="client.js"></script>
+</body>
+
+</html>
