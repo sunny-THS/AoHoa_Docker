@@ -8,10 +8,12 @@
 | 4     | 2001190523    | Phạm Kim Hoàng Hiến   |
 
 # Cài đặt Docker
-- Tiến hành truy cập [https://docs.docker.com/](https://docs.docker.com/) để tải docker cũng như tài liệu của docker<br/>
+- Tiến hành truy cập [https://docs.docker.com/](https://docs.docker.com/) để tải docker cũng như tài liệu của docker<br/><br/>
 ![Image](Images/truyCapWebsite.jpg)
-- Nhấn chọn **Get started**<br/>
+- Nhấn chọn **Get started**<br/><br/>
 ![Image](Images/getStarted.jpg)
+- Nhấn chọn **Docker Desktop for Windows**<br/><br/>
+![Image](Images/chonPhienBan.jpg)
 
 
 # Video demo
