@@ -37,14 +37,14 @@ Và Docker còn được biết là một ứng dụng mang lại lợi ích cho
 # Cách sử dụng
 ## Xem version của docker
 ```bash
-PS> docker --version
+docker --version
 ```
 ## Hiển thị các container đang hoạt động
 ```bash
-PS> docker ps
+docker ps
 ```
 
 ```bash
-PS> docker run -d -p 80:80 docker/getting-started
+docker run -d -p 80:80 docker/getting-started
 ```
 # Video demo
