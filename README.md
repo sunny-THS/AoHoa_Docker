@@ -9,8 +9,9 @@
 
 # Cài đặt Docker
 - Tiến hành truy cập [https://docs.docker.com/](https://docs.docker.com/) để tải docker cũng như tài liệu của docker<br/>
-![Image](./Images/tryCapWebsite.jpg)
-
+![Image](Images/truyCapWebsite.jpg)
+- Nhấn chọn **Get started**<br/>
+![Image](Images/getStarted.jpg)
 
 
 # Video demo
