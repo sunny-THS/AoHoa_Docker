@@ -18,6 +18,7 @@ services:
       - 27017:27017
     restart: always
     volumes:
+      - mongodb-config:/data/configdb
       - mongodb-db:/data/db
 
   mongo-express:
@@ -30,5 +31,4 @@ services:
 
 volumes:
   mongodb-db:
-
-      
+  mongodb-config:
