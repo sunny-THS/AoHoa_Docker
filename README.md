@@ -43,8 +43,8 @@ docker --version
 ```bash
 docker ps
 ```
-
+## Tiến hành
 ```bash
-docker run -d -p 80:80 docker/getting-started
+$ docker run -d -p 80:80 docker/getting-started
 ```
 # Video demo
